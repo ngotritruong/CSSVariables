@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+:root{
+    --base: #ffc600;
+    --spacing: 100px;
+    --blur:  10px;
+}
+span{
+    color: var(--base);
+}
+.image {
+    padding: var(--spacing);
+    width: 400px;
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+input{
+    width: 200px;
+}
